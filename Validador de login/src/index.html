@@ -4,18 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Validador de Login</title>
+    <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
 </head>
 <body>
-    <h1>Validador de Campos</h1>
-    <input type="text" id="emailInput" placeholder="Insira aqui o valor">
-    <label for="types">Email:</label>
-    <select name="types" id="typesSelect">
-        <option value="cpf">Cpf</option>
-        <option value="email">email</option>
-    </select>
-    <button id="btnValidate">
-        Validate
-    </button>
+    <div id="tudo">
+        <h1>Validador de Campos</h1>
+        <input type="text" id="emailInput" placeholder="Insira aqui o valor">
+        <label for="types">Email:</label>
+        <select name="types" id="typesSelect">
+            <option value="cpf">Cpf</option>
+            <option value="email">email</option>
+        </select>
+        <button id="btnValidate">
+            Validate
+        </button>
+        <p id="paragraphField">Digite o valor escolha a opção e clique em validar</p>
+    </div>
 <script src="main.js" type="module"></script>
 </body>
 </html>

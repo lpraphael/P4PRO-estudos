@@ -1,0 +1,12 @@
+#tudo {
+
+    display: flexbox;
+    position: relative;
+    text-align: center;
+    border: solid ;
+    border-color: red;
+}
+
+h1 {
+    color: #8C1717
+}
